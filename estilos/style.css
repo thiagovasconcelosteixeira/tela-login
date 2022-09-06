@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*
+PALETA DE CORES (MAIS FRACO PARA MAIS FORTE)
+#B4B4B4
+#CBB79E
+#B7B09E
+#7F4E26
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body, html{
+    background-color: #BD8852;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#image{
+    background-size: cover ;
+    background-position: center left;
+    width: 250px;
+    height: 200px;
+    background-image: url(../imagens/pexels-vlada-karpovich-9969234.jpg) ;
+    background-repeat: no-repeat;
+}
+
+#formulario{
+    padding: 2px;
+    margin: 10px;
+}
+
+#formulario h1{
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+#formulario p{
+    font-size: 0.8em;
+    margin: auto;
+}
+
+
+
+.campo{
+    background-color: #7F4E26;
+    display: block;
+    border: 2px solid #7F4E26;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+
+}
+
+.campo i{
+    color: white;
+    width: 40px;
+    font-size: 1.8em;
+    padding: 5px;
+}
+
+.campo input{
+    background-color: #CBB79E;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    border: 0px ;
+    border-radius: 5px;
+    transform: translateY(-9px);
+    
+}
+
+
+
+
+#entrar{
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+input[type="submit"]{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #BD8852;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #7F4E26;
+}
+
+.botao{
+    display: block;
+    width: 80%;
+    height: 40px;
+    border: 1px solid #BD8852;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    transform: translateX(24px);
+    padding: 5px 0px;
+    text-decoration: none;
+    color:#7F4E26;
+}
+
+
+
+.botao:hover{
+    background-color: #7F4E26;
+    color: white;
+}
+
+
