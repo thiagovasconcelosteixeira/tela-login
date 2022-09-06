@@ -36,16 +36,16 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     border-radius: 20px;
     overflow: hidden;
 }
 #image{
     background-size: cover ;
     background-position: center left;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     background-image: url(../imagens/pexels-vlada-karpovich-9969234.jpg) ;
     background-repeat: no-repeat;
 }
@@ -126,7 +126,7 @@ input[type="submit"]:hover{
     border-radius: 5px;
     font-size: 1em;
     text-align: center;
-    transform: translateX(38px);
+    transform: translateX(27px);
     padding: 5px 0px;
     text-decoration: none;
     color:#7F4E26;
